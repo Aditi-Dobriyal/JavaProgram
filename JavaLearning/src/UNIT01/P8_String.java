@@ -24,9 +24,9 @@ public class P8_String {
 		String s1 = new String("75457");
 		String s2 = new String("7545a");
 
-		obj.palindromeOrNot(s1);
+		System.out.println(obj.palindromeOrNot(s1));
 		obj.reverseOfAString(s1);
-		obj.stringEqualOrNot(s1, s2);
+		System.out.println(obj.stringEqualOrNot(s1, s2));
 
 	}
 
@@ -34,18 +34,46 @@ public class P8_String {
 
 class QuestionsOnString {
 
-	void palindromeOrNot(String s) {
-		// Write Logic Here!
-
+	boolean palindromeOrNot(String s) {
+	 
+		int n = s.length();
+		for( int i =0 ; i<n/2 ;i++)
+		{
+			if(s.charAt(i) != s.charAt(n-1-i))
+			{
+				return false;
+			}	
+		}
+		return true;
+    
 	}
 
 	void reverseOfAString(String s) {
-		// Write Logic Here!
-
+		System.out.println("original String : "+ s);
+		int n = s.length();
+		String res = "";
+		for( int i =n-1 ; i>=0;i--)
+		{
+		  char a = s.charAt(i);
+		  res = res + a;
+		  
+		}
+       System.out.println("reverse String : "+ res);
 	}
 	
-	void stringEqualOrNot(String s1,String s2) {
-		// Write Logic Here!
+	boolean stringEqualOrNot(String s1,String s2) {
+		
+		if(s1.length() != s2.length())
+			return false ;
+		else
+		{
+			for( int i =0 ; i<s1.length() ;i++)
+			{
+		       if(s1.charAt(i) != s2.charAt(i))
+		    	   return false;
+			}
+			return true;
+		}
 		
 	}
 }
