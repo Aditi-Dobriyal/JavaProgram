@@ -25,8 +25,8 @@ public class P6_Task03_StringBufferClassInJava {
 		System.out.println(sb2);//print AJavap
 		
 		//strinBuffer replace() method
-		StringBuffer sb3=new StringBuffer("Ap ");
-		sb3.replace(1,3,"Java");
+		StringBuffer sb3=new StringBuffer("Apuhfg ");
+		sb3.replace(1,2,"Java");
 		System.out.println(sb3);
 		
 		//stringBuffer delete() method

@@ -10,7 +10,7 @@ public class P5_Task02_MethodsInJava {
 		System.out.println(obj.display2());
 
 	}
-
+	
 }
 
 class ABC3
@@ -32,7 +32,7 @@ class ABC3
 	{
 		int b=10;
 		int a =10;
-		System.out.println(b);
+		System.out.println("ferg"+b);
 		System.out.println(a);
 	}
 	

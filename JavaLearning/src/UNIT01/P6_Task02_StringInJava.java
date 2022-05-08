@@ -3,15 +3,11 @@ package UNIT01;
 public class P6_Task02_StringInJava {
 
 	public static void main(String[] args) {
-		
-
 		StringInJava obj = new StringInJava();
 		obj.StringDefinition() ;
 		obj.charAndString();
 	}
-
 }
-
 class StringInJava
 {
 	void StringDefinition()
@@ -73,8 +69,9 @@ class StringInJava
 		System.out.println(s1);
 		
 		ch[0] = 'h';
-		s1 = s1 + 'a' ;
-		
+		s1 = s1 + 'a';
+		System.out.println(s1);
+
 		
 		String s2 = "Happy";
 		char[] ch4 = s2.toCharArray();  //string to char array

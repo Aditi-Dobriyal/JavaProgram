@@ -21,6 +21,7 @@ public class P2_Task01_keywordsInJava {
 
 	public static void main(String[] args) {}
 }
+
 		//variable name
 		//Syntax error on token "double",invalid VariableDeclaredId
 		//int double=12;

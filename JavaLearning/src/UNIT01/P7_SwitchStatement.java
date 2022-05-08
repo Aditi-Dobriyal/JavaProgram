@@ -10,16 +10,11 @@ Create a switch statement [Manual], In Which:
 * */
 
 public class P7_SwitchStatement {
-
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 		SwitchStatements obj = new SwitchStatements();
 		obj.switchStatements();
-
 	}
-
 }
-
 class SwitchStatements {
 	void switchStatements() {
 		
@@ -57,9 +52,7 @@ class SwitchStatements {
 			{
 				System.out.println("Invalid Choice");
 			}
-		}
-		
-		input.close();
-		
+		}	
+		input.close();	
 	}
 }

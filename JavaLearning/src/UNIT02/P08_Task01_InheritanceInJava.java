@@ -92,12 +92,12 @@ class Three extends Two
 class A
 {
 	int a;
-	
 	A(int a1)
 	{
 		a=a1;
+		System.out.println("A");
+
 	}
-	
 	public void methodOne()
 	{
 		System.out.println(a);
@@ -111,6 +111,8 @@ class B extends A
 	B(int x)
 	{
 		super(10);
+		System.out.println("b");
+
 		b=x;
 		
 	}
@@ -127,6 +129,8 @@ class C extends A
 	C()
 	{
 		super(10);
+		System.out.println("c");
+
 		c=10;
 		
 	}
@@ -143,6 +147,7 @@ class D extends A
 	D(int d1)
 	{
 		super(d1);
+		System.out.println("D");
 		d=d1;
 	}
 	

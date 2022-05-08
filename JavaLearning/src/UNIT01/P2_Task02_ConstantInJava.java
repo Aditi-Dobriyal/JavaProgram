@@ -1,6 +1,7 @@
 package UNIT01;
 
 
+
 //private:"Inside class only"
 //Protected: Class+ same package
 //public: Class+within the package+outside the package
@@ -13,14 +14,13 @@ public class P2_Task02_ConstantInJava {
 
 	public static void main(String[] args) {
 		System.out.println(Pi);
-		main("Callingtheprogram");
+		main("Callingthepgram");
 		
 		//syntax for creating new object
 		//class_name variable/object name=new class_name()
 		NewClass obj=new NewClass();
 		obj.add(1,2);
 	//	System.out.println(obj.Pi);
-
 	}
 	public static void main(String args)
 	{

@@ -1,5 +1,6 @@
 
 package UNIT01;
+
 /*
  * - Variable in java is a data container that saves the values during Java program execution
  *  
@@ -10,7 +11,7 @@ package UNIT01;
  *     
  *     Instance Variables- Instance variables are defined without the STATIC keyword.
  *     - They are defined Outside a method declaration.
- *     - They are Object specific are and are known as Instance variables.
+ *     - They are Object specific and are known as Instance variables.
  *     
  *      Static Variables-
  *      - static variables are defined with the STATIC keyword
@@ -20,7 +21,7 @@ package UNIT01;
  *   - Data Types in Java?
  *   . Reference OneNote
  *   
- *      
+ *     
  */
 
 public class P3_Task01_VariablesAndDataTypeinJava {
@@ -94,15 +95,15 @@ public class P3_Task01_VariablesAndDataTypeinJava {
 		System.out.println(n);
 		System.out.println(o);
 		
-		System.out.println(ABC.j); //data + function/methods
+		System.out.println("ABC.J : " +ABC.j); //data + function/methods
 		// ABC.display();
 		
 		ABC obj1 = new ABC();
-		System.out.println(obj1.i++);
-		System.out.println(obj1.i);
+		System.out.println("obj1.i++ " +obj1.i++);
+		System.out.println("obj1.i " +obj1.i);
 		
 		ABC obj2 = new ABC();
-		System.out.println(obj2.i);
+		System.out.println("obj2.i " +obj2.i);
 		
 		//System.out.println(obj1.j++);
 		//System.out.println(obj1.j);
@@ -117,14 +118,11 @@ public class P3_Task01_VariablesAndDataTypeinJava {
 	
 	int r = 10;
 	
-	void display() {
-		
+	void display() {	
 		int a = 5; // local Variable
 		System.out.println("This is Display Method");
-		System.out.println(a);
-		
+		System.out.println(a);	
 	}
-
 }
 
 class ABC {

@@ -1,6 +1,5 @@
 package UNIT02;
 
-
 /*
  * Abstract Class:
  * -An abstract class must be declared with an abstract keyword
@@ -42,11 +41,9 @@ class Honda4 extends Bike
 {
 
 	@Override
-	void run() {
-		System.out.println("Inside run method");
-		
-	}
-	
+	final void run() {
+		System.out.println("Inside run method");		
+	}	
 }
 
 

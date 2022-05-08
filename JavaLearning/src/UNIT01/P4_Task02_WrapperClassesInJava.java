@@ -27,16 +27,15 @@ public class P4_Task02_WrapperClassesInJava {
 		
 		//a.toString can not be done due to a is int not object
 		
-		//Autoboxing Converting primitives to Objects
+		//Autoboxing: Converting primitives to Objects
 		byte b =10;
-		Byte byteobj=b;
+		Byte byteobj=b;   
 		
 		System.out.println(byteobj);
 		
 		//Unboxing Converting Objects to Primitives
 		byte bytevalue=byteobj;
 		System.out.println(bytevalue);
-
 	}
 
 }

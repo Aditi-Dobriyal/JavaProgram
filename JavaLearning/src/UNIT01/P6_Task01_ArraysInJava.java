@@ -61,7 +61,7 @@ public class P6_Task01_ArraysInJava {
 		
 		
 		//MULTIDIMENTIONAL ARRAY IN JAVA
-		int [][] arr6= new int[3][3]; //3 row and 3 col
+		int [][] arr6= new int[3][3]; //3 row and 3 column
 		
 		
 		int counter=0;
@@ -93,10 +93,7 @@ public class P6_Task01_ArraysInJava {
 					System.out.println(arr[i]);
 				}
 				System.out.println("\n\n");
-		
-		
-
-	}
+}
 	
 	static void arrayAsParameter(int arr[])
 	{
